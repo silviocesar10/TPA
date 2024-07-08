@@ -1,0 +1,33 @@
+Lista 1
+
+1) 
+    for (i = 0; i < N; i++)
+        System.out.printf("%d\n", i);
+
+    Resposta:
+      2 + 2n + n -> 3n + 2
+
+2)
+    for (i = 0; i < N; i = i + 2)
+        System.out.printf("%d\n", i);
+
+    Respota:
+        2 + 2(n/2) + (n/2) -> 3(n/2) + 2
+
+3)
+    for (i = 0; i < N; i= i+2){
+        System.out.printf("%d\n", i);
+        i--;
+    }
+
+    Respotas:
+        2 + 2n + n + n-> 4n + 2
+
+4)
+    for (i = 0; i < N-1; i++){
+        for(j = i+1; j < N; j++){        
+            if(V[i] < V[j]){
+                System.out.printf("%d\n", i);
+            }
+        }
+    }
