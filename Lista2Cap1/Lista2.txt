@@ -1,0 +1,35 @@
+1) O que significa dizer que uma função f(n) é O(g(n))?
+R: significa dizer que f(n) em seu pior caso e g(n)
+
+2) O que significa dizer que uma função f(n) é (GRANDE OMEGA)(g(n))?
+R:significa dizer que f(n) em seu melhor caso e g(n)
+
+3)O que significa dizer que uma função f(n) é (GRANDE TETA)(g(n))?
+R:significa dizer que o custo de f(n) reside em g(n) pois e o valor 
+  medio nao tendo alteracao entre melhor e pior caso
+
+4)Considere 2 algoritmos A e B com complexidades 8n^2 e n^3. Qual o 
+maior valor de n para o qual o algoritmo B é mais eficiente que o algoritmo A?
+R: B < A 
+   n^3 < 8n^2 -> (n^3) /(n^2) < (8n^2) (n^2) -> n < 8, entao n precisa ser 7 pq sera o menor valor antes de 8
+
+5)Suponha um algoritmo A e um algoritmo B com funções de complexidade de tempo 
+a(n) = n^2 − n + 549 e b(n) = 49n + 49, respectivamente. Determine quais são 
+os valores de n pertencentes ao conjunto dos números naturais para os quais 
+A leva menos tempo para executar do que B.
+R: A < B 
+  n^2 - n + 549 < 49n + 49
+  n^2 - 50n + 500 < 0 
+  DELTA = (50^2) - 4.1.500 = 500
+  (50 +-sqrt(500)) /2.1
+  x' = (50 + 22,36) / 2 = 36,18
+  x'' = (50 - 22,36) / 2 = 13,82 
+
+  Portanto precisa ser 14 <= n <= 36
+
+6)Dois algoritmos A e B possuem complexidade n5 e 2n respectivamente. Você utilizaria o
+algoritmo B ao invés do A, em qual caso? Explique.
+R: para B(n) < A(n) tal que n⁵ < 2^n temos que para que n <=22 temos que B(n) <= A(n)
+   de tal forma que n >= 23 entao A(n) < B(n) 
+
+7)
